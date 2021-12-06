@@ -1,0 +1,122 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+body {
+  background: linear-gradient(45deg, #ce2610 20%, #09c250 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.Product {
+  font-family: sans-serif;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 1em;
+  box-shadow: 2px 2px 2px 1px rgba(56, 56, 56, 0.363);
+  background-color: white;
+}
+.Product img {
+  border-radius: 0.6em;
+}
+.ProductInfo {
+  margin: 0.5em;
+}
+
+.ProducListContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+  height: 95vh;
+}
+.shopHeader {
+  padding: 0.5em;
+  flex-direction: row;
+  align-items: flex-end;
+  display: flex;
+  flex: 0;
+}
+
+.ProductList {
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+.ShoppingCart {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 1em;
+  box-shadow: 2px 2px 2px 1px rgba(56, 56, 56, 0.363);
+  background-color: white;
+  flex: 0;
+}
+
+.ShoppingCartItem {
+  padding: 0.5em;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+.ShoppingCartItem img {
+  border-radius: 0.6em;
+}
+.ShoppingCartItemAmount {
+  position: absolute;
+  background-color: rgba(116, 116, 116, 0.959);
+  color: #fdfdfd;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 15em;
+  text-align: center;
+  margin: 0.1em;
+  line-height: 1.5em;
+}
+
+.shopLogo {
+  background-image: url("https://media.istockphoto.com/vectors/mulled-vine-with-slice-of-orange-and-cinnamon-vector-id1033165150?k=20&m=1033165150&s=612x612&w=0&h=Ij_rwG6dtUIbvzZyUOA7JEJu15BNUJqymgnB0TQo1Y4=");
+  /* background-position: 0 -0; */
+  background-size: 50px;
+  border-radius: 5em;
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 1em;
+  text-align: left;
+}
+h2 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+h3 {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  color: rgb(82, 82, 82);
+  text-align: left;
+}
